@@ -1,7 +1,8 @@
 import { blueGrey, green, red } from '@material-ui/core/colors';
 import { Link } from 'react-router-dom'
 import imgx from '../../assets/images/imgx.png';
-import Logo from '../../assets/images/madebyandrew.png'
+import * as ALL from '../../assets/images/shots/index';
+import Logo from '../../assets/images/madebyandrew.png';
 import './index.scss';
 import {Drawer, Box, Typography, IconButton} from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
@@ -9,52 +10,63 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
+import img1 from '../../assets/images/shots/s1i1.jpeg';
+import img2 from '../../assets/images/shots/s1i2.jpeg';
+import img3 from '../../assets/images/shots/s1i3.jpeg';
+import img4 from '../../assets/images/shots/s2i1.jpeg';
+import img5 from '../../assets/images/shots/s2i2.jpeg';
+import img6 from '../../assets/images/shots/s3i1.jpeg';
+import img7 from '../../assets/images/shots/s4i1.jpeg';
+import img8 from '../../assets/images/shots/s5i1.jpeg';
+import img9 from '../../assets/images/shots/s6i1.jpeg';
+
 const Home = () => {
+
     let data = [
         {
             id:1,
-            imgSrc: imgx,
+            imgSrc:img1,
             color: red,
         },
         {
             id:2,
-            imgSrc: imgx,
+            imgSrc: img2,
             color: green,
         },
         {
             id:3,
-            imgSrc: imgx,
+            imgSrc: img3,
             color: red,
         },
         {
             id:4,
-            imgSrc: imgx,
+            imgSrc: img4,
             color: green,
         },
         {
             id:5,
-            imgSrc: imgx,
+            imgSrc: img5,
             color: red,
         },
         {
             id:6,
-            imgSrc: imgx,
+            imgSrc: img6,
             color: blueGrey,
         },
         {
             id:7,
-            imgSrc: imgx,
+            imgSrc: img7,
             color: blueGrey,
         },
         {
             id:8,
-            imgSrc: imgx,
+            imgSrc: img8,
             color: green,
         },
         {
-            id:9,
-            imgSrc: imgx,
-            color: blueGrey,
+            id:8,
+            imgSrc: img9,
+            color: green,
         },
     ];
 
@@ -80,9 +92,19 @@ const Home = () => {
                 <Link className='logo' to = '/'></Link>
                 <img src={Logo} alt='logo'/>
                 <Drawer anchor="top" open = {isDrawerOpen} onClose = {()=> setIsDrawerOpen(false)}  >
-                        <Box p = {2} width = "250px" textAlign = "center" role="presentation">
-                            <Typography variant = 'h6' component='div'>
-                            
+                        <Box p = {2} width = "250px" textAlign = "center" role="presentation" textDecoration ="none">
+                            <Typography variant = 'h6' component='div' className='list'>
+                                <ul>
+                                    <li>
+                                        <a>Home</a>
+                                    </li>
+                                    <li>
+                                        <a>About</a>
+                                    </li>
+                                    <li>
+                                        <a>Contact</a>
+                                    </li>
+                                </ul>
                             </Typography>
                         </Box>
                 </Drawer>
