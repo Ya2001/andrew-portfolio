@@ -2,7 +2,7 @@ import './App.scss';
 import { Routes,Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './components/Home';
-import Sidebar from './components/sidebar';
+// import Sidebar from './components/sidebar';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <Routes>
           {/* The layout route is for moderating the layout of all the components in the page */}
           <Route path ="/" element = {<Layout />} >
-            <Route element = {<Sidebar />}/>
+            {/* <Route element = {<Sidebar />}/> */}
               <Route index element = {<Home />} />
           </Route>
     </Routes>
