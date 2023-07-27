@@ -72,3 +72,34 @@
      display: block;
      font-size: larger;
 }
+nav {
+    display: block;
+    position: absolute;
+    text-align: center;
+    overflow: hidden;
+    // height: 210px;
+    top: 50%;
+    width: 100%;
+    margin-top: -80px;
+    margin-left: -80px;
+
+    a {
+        font-size: 22px;
+        display: block;
+        line-height: 51px;
+        height: 51px;
+        position: relative;
+        text-decoration: none;
+        color: black;
+
+        i {
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:hover{
+            background-color: grey;
+            font-size: large;
+            color: white;
+        }
+    }
+}

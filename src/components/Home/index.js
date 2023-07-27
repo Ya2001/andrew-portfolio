@@ -1,7 +1,7 @@
 import { blueGrey, green, red } from '@material-ui/core/colors';
-import { Link } from 'react-router-dom'
-import imgx from '../../assets/images/imgx.png';
-import * as ALL from '../../assets/images/shots/index';
+import { Link, NavLink } from 'react-router-dom'
+// import imgx from '../../assets/images/imgx.png';
+// import * as ALL from '../../assets/images/shots/index';
 import Logo from '../../assets/images/madebyandrew.png';
 import './index.scss';
 import {Drawer, Box, Typography, IconButton} from '@mui/material';
@@ -89,22 +89,22 @@ const Home = () => {
                         className="anchor-icon"
                         />
                     </a>
-                <Link className='logo' to = '/'></Link>
+                <Link className='logo' to = '/Home'></Link>
                 <img src={Logo} alt='logo'/>
                 <Drawer anchor="top" open = {isDrawerOpen} onClose = {()=> setIsDrawerOpen(false)}  >
-                        <Box p = {2} width = "250px" textAlign = "center" role="presentation" textDecoration ="none">
+                        <Box p = {10} width = "250px" textAlign = "center" role="presentation" textDecoration ="none">
                             <Typography variant = 'h6' component='div' className='list'>
-                                <ul>
-                                    <li>
+                                <nav>
+                                    <NavLink exact = "true" activeclassname="active" to="/Home">
                                         <a>Home</a>
-                                    </li>
-                                    <li>
+                                    </NavLink>
+                                    <NavLink exact = "true" activeclassname="active" className = "about-link" to="/About">
                                         <a>About</a>
-                                    </li>
-                                    <li>
+                                    </NavLink>
+                                    <NavLink exact = "true" activeclassname="active" className = "contact-link"to="/Contact">
                                         <a>Contact</a>
-                                    </li>
-                                </ul>
+                                    </NavLink>
+                                </nav>
                             </Typography>
                         </Box>
                 </Drawer>
