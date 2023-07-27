@@ -11,7 +11,7 @@ function App() {
   return (
     <Routes>
           {/* The layout route is for moderating the layout of all the components in the page */}
-          <Route exact path ="/{Layout}" element = {<Layout />} >
+          <Route exact path = "/andrew-portfolio" element = {<Layout />} >
             {/* <Route element = {<Sidebar />}/> */}
               <Route index element = {<Home />} />
           </Route>
