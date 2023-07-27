@@ -3,6 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 // import imgx from '../../assets/images/imgx.png';
 // import * as ALL from '../../assets/images/shots/index';
 import Logo from '../../assets/images/madebyandrew.png';
+import React from 'react';
 import './index.scss';
 import {Drawer, Box, Typography, IconButton} from '@mui/material';
 import MenuIcon from "@mui/icons-material/Menu";
