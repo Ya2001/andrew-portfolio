@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/steez/static/css/main.14939289.css",
-    "main.js": "/steez/static/js/main.6b176d11.js",
+    "main.js": "/steez/static/js/main.64d46758.js",
     "static/js/787.a2e7dfdb.chunk.js": "/steez/static/js/787.a2e7dfdb.chunk.js",
     "static/media/s1i3.jpeg": "/steez/static/media/s1i3.020bd7be1b3674d46774.jpeg",
     "static/media/s1i2.jpeg": "/steez/static/media/s1i2.459e5c6e4cd039b5ed73.jpeg",
@@ -18,11 +18,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/steez/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/steez/index.html",
     "main.14939289.css.map": "/steez/static/css/main.14939289.css.map",
-    "main.6b176d11.js.map": "/steez/static/js/main.6b176d11.js.map",
+    "main.64d46758.js.map": "/steez/static/js/main.64d46758.js.map",
     "787.a2e7dfdb.chunk.js.map": "/steez/static/js/787.a2e7dfdb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.14939289.css",
-    "static/js/main.6b176d11.js"
+    "static/js/main.64d46758.js"
   ]
 }
