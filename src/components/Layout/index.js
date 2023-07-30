@@ -1,7 +1,7 @@
 // import Home from '../Home';
 // import About from '../About';
 // import Contact from '../Contact';
-import { Link, NavLink} from 'react-router-dom'
+import { Link, NavLink, Outlet} from 'react-router-dom'
 import './index.scss';
 import Logo from '../../assets/images/madebyandrew.png';
 import React from 'react';
@@ -61,8 +61,9 @@ const Layout = ({children}) => {
                             </Typography>
                         </Box>
                 </Drawer>
-                </div>      
-        {children}
+                </div>    
+
+                <Outlet></Outlet>  
     </div>
     )
 

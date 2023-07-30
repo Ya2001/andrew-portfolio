@@ -1,4 +1,4 @@
-import { blueGrey, green, red } from '@material-ui/core/colors';
+// import { blueGrey, green, red } from '@mui/material/colors';
 import React from 'react';
 import './index.scss';
 
@@ -18,47 +18,38 @@ const Home = () => {
         {
             id:1,
             imgSrc:img1,
-            color: red,
         },
         {
             id:2,
             imgSrc: img2,
-            color: green,
         },
         {
             id:3,
             imgSrc: img3,
-            color: red,
         },
         {
             id:4,
             imgSrc: img4,
-            color: green,
         },
         {
             id:5,
             imgSrc: img5,
-            color: red,
         },
         {
             id:6,
             imgSrc: img6,
-            color: blueGrey,
         },
         {
             id:7,
             imgSrc: img7,
-            color: blueGrey,
         },
         {
             id:8,
             imgSrc: img8,
-            color: green,
         },
         {
             id:8,
             imgSrc: img9,
-            color: green,
         },
     ];
 

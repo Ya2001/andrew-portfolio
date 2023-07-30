@@ -12,7 +12,7 @@ import Contact from './components/Contact';
 function App() {
   // in case I forget how Browser Router works https://www.javatpoint.com/browserrouter-in-react
   return (
-    <>
+
      <Routes> 
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} /> 
@@ -20,7 +20,6 @@ function App() {
         <Route path="contact" element={<Contact />} />
       </Route>
     </Routes>
-  </>
 
   );
 }
