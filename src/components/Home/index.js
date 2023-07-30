@@ -1,15 +1,6 @@
 import { blueGrey, green, red } from '@material-ui/core/colors';
-import { Link, NavLink } from 'react-router-dom'
-// import imgx from '../../assets/images/imgx.png';
-// import * as ALL from '../../assets/images/shots/index';
-import Logo from '../../assets/images/madebyandrew.png';
 import React from 'react';
 import './index.scss';
-import {Drawer, Box, Typography, IconButton} from '@mui/material';
-import MenuIcon from "@mui/icons-material/Menu";
-import { useState } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faInstagram} from '@fortawesome/free-brands-svg-icons'
 
 import img1 from '../../assets/images/shots/s1i1.jpeg';
 import img2 from '../../assets/images/shots/s1i2.jpeg';
@@ -71,46 +62,8 @@ const Home = () => {
         },
     ];
 
-      
-    const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     return (
-        <>
-            <div className='header'>
-                <IconButton fontSize = '4.5rem' edge = 'start' color = "inherit" aria-label="logo" onClick={()=> setIsDrawerOpen(true)}>
-                    <MenuIcon/>
-                </IconButton>
-                <a
-                        href="https://www.instagram.com/madebyandrrew/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <FontAwesomeIcon
-                        icon={faInstagram}
-                        // color="#4d4d4e"
-                        className="anchor-icon"
-                        />
-                    </a>
-                <Link className='logo' to = '/Home'></Link>
-                <img src={Logo} alt='logo'/>
-                <Drawer anchor="top" open = {isDrawerOpen} onClose = {()=> setIsDrawerOpen(false)}  >
-                        <Box p = {10} width = "250px" textAlign = "center" role="presentation" textDecoration ="none">
-                            <Typography variant = 'h6' component='div' className='list'>
-                                <nav>
-                                    <NavLink exact = "true" activeclassname="active" to="/Home">
-                                        <a>Home</a>
-                                    </NavLink>
-                                    <NavLink exact = "true" activeclassname="active" className = "about-link" to="/About">
-                                        <a>About</a>
-                                    </NavLink>
-                                    <NavLink exact = "true" activeclassname="active" className = "contact-link"to="/Contact">
-                                        <a>Contact</a>
-                                    </NavLink>
-                                </nav>
-                            </Typography>
-                        </Box>
-                </Drawer>
-                    
-            </div>
+ 
             <div className="gallery">
                 {data.map((item, index)=>{
                     return (
@@ -120,7 +73,6 @@ const Home = () => {
                     )
                 })}
             </div>    
-        </> 
     )
 };
 

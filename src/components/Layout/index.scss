@@ -22,3 +22,57 @@
 .bottom-tag-html{
     margin-left: -20px;
 }
+
+.header svg{
+    position: absolute;
+    left: 20px;
+    top:  10px;
+    font-size: 30px;
+}
+
+.header a{
+    color: rgb(66, 66, 66);
+    position: absolute;
+    right: 80px;
+    top: 10px;
+}
+
+.header img{ 
+    display:flex;
+    text-align: center;
+    margin : 0px auto;
+    width : 200px;
+    height : auto;
+}
+
+.list{
+    display: block;
+    font-size: larger;
+}
+nav {
+   display: block;
+   position: absolute;
+   text-align: center;
+   overflow: hidden;
+   width: 100%;
+   top: -20px;
+
+   a {
+       font-size: 22px;
+       display: block;
+       line-height: 51px;
+       height: 51px;
+       position: relative;
+       text-decoration: none;
+       color: black;
+
+       i {
+           transition: all 0.1s ease-in-out;
+       }
+
+       &:hover{
+           background-color: rgb(159, 155, 155);
+           color: white;
+       }
+   }
+}
