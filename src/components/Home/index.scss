@@ -77,11 +77,8 @@ nav {
     position: absolute;
     text-align: center;
     overflow: hidden;
-    // height: 210px;
-    top: 50%;
     width: 100%;
-    margin-top: -80px;
-    margin-left: -80px;
+    top: -20px;
 
     a {
         font-size: 22px;
@@ -93,12 +90,11 @@ nav {
         color: black;
 
         i {
-            transition: all 0.3s ease-in-out;
+            transition: all 0.1s ease-in-out;
         }
 
         &:hover{
-            background-color: grey;
-            font-size: large;
+            background-color: rgb(159, 155, 155);
             color: white;
         }
     }
