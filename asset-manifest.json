@@ -1,28 +1,19 @@
 {
   "files": {
-    "main.css": "/andrew-portfolio/static/css/main.0e6c3972.css",
-    "main.js": "/andrew-portfolio/static/js/main.9e3d7b39.js",
+    "main.css": "/andrew-portfolio/static/css/main.c6aec494.css",
+    "main.js": "/andrew-portfolio/static/js/main.c68ed58b.js",
     "static/js/787.a2e7dfdb.chunk.js": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js",
-    "static/media/s1i3.jpeg": "/andrew-portfolio/static/media/s1i3.020bd7be1b3674d46774.jpeg",
-    "static/media/s1i2.jpeg": "/andrew-portfolio/static/media/s1i2.459e5c6e4cd039b5ed73.jpeg",
-    "static/media/s1i1.jpeg": "/andrew-portfolio/static/media/s1i1.9f2691e43d75c30816f7.jpeg",
-    "static/media/s4i1.jpeg": "/andrew-portfolio/static/media/s4i1.0d6611f7e2d044cb1979.jpeg",
-    "static/media/s3i1.jpeg": "/andrew-portfolio/static/media/s3i1.c0ee8b97d8701e2075bd.jpeg",
-    "static/media/s2i2.jpeg": "/andrew-portfolio/static/media/s2i2.df5ae9035eea176de74c.jpeg",
-    "static/media/s5i1.jpeg": "/andrew-portfolio/static/media/s5i1.6a5e087969d88570147a.jpeg",
-    "static/media/s2i1.jpeg": "/andrew-portfolio/static/media/s2i1.164415a91aeb249e3ed2.jpeg",
-    "static/media/s6i1.jpeg": "/andrew-portfolio/static/media/s6i1.4c6ebbb14ec8a696bead.jpeg",
     "static/media/helvetica-neu.ttf": "/andrew-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/andrew-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/madebyandrew.png": "/andrew-portfolio/static/media/madebyandrew.f0f1797f01acf2bbac4e.png",
     "static/media/CoolveticaRg-Regular.woff2": "/andrew-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/andrew-portfolio/index.html",
-    "main.0e6c3972.css.map": "/andrew-portfolio/static/css/main.0e6c3972.css.map",
-    "main.9e3d7b39.js.map": "/andrew-portfolio/static/js/main.9e3d7b39.js.map",
+    "main.c6aec494.css.map": "/andrew-portfolio/static/css/main.c6aec494.css.map",
+    "main.c68ed58b.js.map": "/andrew-portfolio/static/js/main.c68ed58b.js.map",
     "787.a2e7dfdb.chunk.js.map": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e6c3972.css",
-    "static/js/main.9e3d7b39.js"
+    "static/css/main.c6aec494.css",
+    "static/js/main.c68ed58b.js"
   ]
 }
