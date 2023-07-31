@@ -63,7 +63,7 @@ const Layout = ({children}) => {
                 </Drawer>
                 </div>    
 
-                <Outlet></Outlet>  
+                <Outlet/>
     </div>
     )
 
