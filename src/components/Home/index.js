@@ -1,6 +1,8 @@
+
 import {React, useEffect, useState} from 'react';
 import './index.scss';
 import {getImagesFromContentful} from '../../contentfulConfig/contentfulConfig.js'
+
 
 const Home = () => {
 
@@ -19,14 +21,14 @@ const Home = () => {
     
         fetchData();
       }, []);
-
+    
     return (
  
             <div className="gallery">
                 {data.map((item, index)=>{
                     return (
                         <div className='picture' key={index}> 
-                            <img src={item.imgSrc} alt={`Image ${item.id}`} style={{width: '100%'}}/>
+                            <img src={item.imgSrc} alt={`${item.id}`} style={{width: '100%'}}/>
                         </div>
                     )
                 })}
