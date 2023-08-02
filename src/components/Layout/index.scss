@@ -76,3 +76,16 @@ nav {
        }
    }
 }
+
+@media (max-width: 991px){
+    .header img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 480px){
+
+    .header img{
+        width: 120px;
+    }
+}

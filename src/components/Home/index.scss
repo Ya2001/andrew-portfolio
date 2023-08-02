@@ -21,27 +21,27 @@
     filter: opacity(.8);
 }
 
-.header svg{
-    position: absolute;
-    left: 20px;
-    top:  10px;
-    font-size: 30px;
-}
+// .header svg{
+//     position: absolute;
+//     left: 20px;
+//     top:  10px;
+//     font-size: 30px;
+// }
 
-.header a{
-    color: rgb(66, 66, 66);
-    position: absolute;
-    right: 80px;
-    top: 10px;
-}
+// .header a{
+//     color: rgb(66, 66, 66);
+//     position: absolute;
+//     right: 80px;
+//     top: 10px;
+// }
 
-.header img{ 
-    display:flex;
-    text-align: center;
-    margin : 0px auto;
-    width : 200px;
-    height : auto;
-}
+// .header img{ 
+//     display:flex;
+//     text-align: center;
+//     margin : 0px auto;
+//     width : 200px;
+//     height : auto;
+// }
 
 @media (max-width: 991px){
     .gallery{
