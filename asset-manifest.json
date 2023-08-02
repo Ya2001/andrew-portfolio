@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/andrew-portfolio/static/css/main.cc30f0ff.css",
+    "main.css": "/andrew-portfolio/static/css/main.cbf78fc2.css",
     "main.js": "/andrew-portfolio/static/js/main.362e6c8c.js",
     "static/js/787.a2e7dfdb.chunk.js": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js",
     "static/media/helvetica-neu.ttf": "/andrew-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -8,12 +8,12 @@
     "static/media/madebyandrew.png": "/andrew-portfolio/static/media/madebyandrew.f0f1797f01acf2bbac4e.png",
     "static/media/CoolveticaRg-Regular.woff2": "/andrew-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/andrew-portfolio/index.html",
-    "main.cc30f0ff.css.map": "/andrew-portfolio/static/css/main.cc30f0ff.css.map",
+    "main.cbf78fc2.css.map": "/andrew-portfolio/static/css/main.cbf78fc2.css.map",
     "main.362e6c8c.js.map": "/andrew-portfolio/static/js/main.362e6c8c.js.map",
     "787.a2e7dfdb.chunk.js.map": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc30f0ff.css",
+    "static/css/main.cbf78fc2.css",
     "static/js/main.362e6c8c.js"
   ]
 }
