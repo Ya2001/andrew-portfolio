@@ -3,7 +3,7 @@ import { createClient } from 'contentful';
 
 const client = createClient({
     space:'8khihhnc4rdl',
-    accessToken: process.env.REACT_APP_ACCESS_TOKEN
+    accessToken:'4JLIhfySc6Osbm1EZqioqEkIrOvvqKgoTXUOtqhgajA'
 })
 
 export default client;
@@ -11,13 +11,13 @@ export default client;
 export async function getImagesFromContentful(){
   try {
       const response = await client.getEntries({
-        content_type: 'madebyandrrew', 
+        content_type: 'madebyandrrewPortfolioWebsite', 
       });
       console.log('Contentful Response:', response.items);
 
       const imagesData = response.items.map((item) => ({
           id: item.fields.name,
-          imgSrc: item.fields.picture.fields.file.url,
+          imgSrc: item.fields.photo.fields.file.url,
       
       }));
       return imagesData
