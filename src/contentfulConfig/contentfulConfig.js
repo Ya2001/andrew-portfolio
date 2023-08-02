@@ -2,7 +2,7 @@ import { createClient } from 'contentful';
 // require('dotenv').config();
 
 const client = createClient({
-    space:'9x0bp6tbds1o',
+    space:'8khihhnc4rdl',
     accessToken: process.env.REACT_APP_ACCESS_TOKEN
 })
 
