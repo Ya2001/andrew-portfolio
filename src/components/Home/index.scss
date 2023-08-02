@@ -1,6 +1,6 @@
 .gallery{
     margin-left: 1%;
-    margin-top: 5%;
+    margin-top: 3%;
     -webkit-column-count: 3;
     -moz-column-count: 3;
     column-count: 3;
@@ -21,27 +21,6 @@
     filter: opacity(.8);
 }
 
-// .header svg{
-//     position: absolute;
-//     left: 20px;
-//     top:  10px;
-//     font-size: 30px;
-// }
-
-// .header a{
-//     color: rgb(66, 66, 66);
-//     position: absolute;
-//     right: 80px;
-//     top: 10px;
-// }
-
-// .header img{ 
-//     display:flex;
-//     text-align: center;
-//     margin : 0px auto;
-//     width : 200px;
-//     height : auto;
-// }
 
 @media (max-width: 991px){
     .gallery{
