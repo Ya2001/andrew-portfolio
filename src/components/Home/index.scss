@@ -7,10 +7,26 @@
     -webkit-column-width: 33%;
     -moz-column-width: 33%;
     column-width: 33%;
-    padding: 0 12px;
+    padding: 0 12px 12px;
 }
 
+@supports (not (column-width: 33%)) {
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+    
+    }
+  
+    .gallery .picture {
+      flex: 0 0 calc(33% - 12px);
+      box-sizing: border-box;
+      margin-bottom: 12px;
+      margin-right: 12px;
+    }
+  }
+  
 .gallery .picture{
+    box-sizing: border-box;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
     cursor: pointer;
