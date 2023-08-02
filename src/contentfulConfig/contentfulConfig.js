@@ -11,7 +11,7 @@ export default client;
 export async function getImagesFromContentful(){
   try {
       const response = await client.getEntries({
-        content_type: 'portfolio', 
+        content_type: 'madebyandrrew portfolio wesbite', 
       });
       console.log('Contentful Response:', response.items);
 
