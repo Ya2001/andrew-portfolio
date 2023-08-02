@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/andrew-portfolio/static/css/main.cbf78fc2.css",
-    "main.js": "/andrew-portfolio/static/js/main.362e6c8c.js",
+    "main.css": "/andrew-portfolio/static/css/main.c33519e4.css",
+    "main.js": "/andrew-portfolio/static/js/main.43bdbae3.js",
     "static/js/787.a2e7dfdb.chunk.js": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js",
     "static/media/helvetica-neu.ttf": "/andrew-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/andrew-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/madebyandrew.png": "/andrew-portfolio/static/media/madebyandrew.f0f1797f01acf2bbac4e.png",
     "static/media/CoolveticaRg-Regular.woff2": "/andrew-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/andrew-portfolio/index.html",
-    "main.cbf78fc2.css.map": "/andrew-portfolio/static/css/main.cbf78fc2.css.map",
-    "main.362e6c8c.js.map": "/andrew-portfolio/static/js/main.362e6c8c.js.map",
+    "main.c33519e4.css.map": "/andrew-portfolio/static/css/main.c33519e4.css.map",
+    "main.43bdbae3.js.map": "/andrew-portfolio/static/js/main.43bdbae3.js.map",
     "787.a2e7dfdb.chunk.js.map": "/andrew-portfolio/static/js/787.a2e7dfdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbf78fc2.css",
-    "static/js/main.362e6c8c.js"
+    "static/css/main.c33519e4.css",
+    "static/js/main.43bdbae3.js"
   ]
 }
